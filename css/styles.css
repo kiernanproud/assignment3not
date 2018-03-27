@@ -1,10 +1,22 @@
+.logo { 
+height: 4em;
+margin: 20px;
+}
+
 * {
     box-sizing:border-box;
     margin: 0;
 }
 
 header {
-    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    
+    header nav{
+        flex: 1;
+    }
+   
 }
 
 html {
